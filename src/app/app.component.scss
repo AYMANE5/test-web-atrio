@@ -1,0 +1,134 @@
+
+
+.page{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: 
+        "container img" 
+
+        
+}
+
+
+.container{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 190px;
+}
+
+.img{
+
+    background: url(../app/img/img1.PNG) no-repeat center/cover;
+
+
+}
+
+
+
+h1{
+    font-size: 3.4rem;
+    font-weight: 200;
+}
+
+p{
+    color:rgb(5, 5, 212);
+    
+}
+
+
+label{
+    font-weight: 600;
+    font-size: 0.8rem;
+    
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 60px 0;
+    color: blue;
+}
+
+
+
+input[type="email"],
+input[type="password"]{
+    border: 1px solid palevioletred;
+    width: 100%;
+    margin: 20px 0 40px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: 0.2s;
+
+
+}
+
+.connexion{
+    border-radius: 10px 100px / 120px;
+    background-color: rgb(236, 89, 217);
+    padding: 13px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    
+    letter-spacing: 2px;
+    cursor: pointer;
+    font: 700 0.75rem ;
+    transition: 0.3s;
+    margin-left: 30%;
+
+
+}
+
+a:visited{
+    color: black;
+    text-decoration:none;
+    
+    
+}
+
+.button{
+    color: rgb(236, 89, 217);
+    margin-left: 32%;
+    
+}
+
+
+
+/***********************RESPONSIVE******************/
+
+@media screen and (max-width: 650px){
+
+.page{
+    display:block;
+}
+.container{
+    display: inline-block;
+    
+}
+.img{
+    padding: 50vh;
+    height: 50vh;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
